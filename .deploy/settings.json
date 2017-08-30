@@ -1,0 +1,33 @@
+{
+  "accounts-phone": {
+    "verificationWaitTime": 0,
+    "verificationRetriesWaitTime": 0,
+    "adminPhoneNumbers": ["+9721234567", "+97212345678", "+97212345679"],
+    "phoneVerificationMasterCode": "1234"
+  },
+  "public": {
+    "facebook": {
+      "permissions": [
+        "public_profile",
+        "user_friends",
+        "email"
+      ],
+      "profileFields": [
+        "name",
+        "gender",
+        "location"
+      ]
+    }
+  },
+  "private": {
+    "fcm": {
+      "key": "AIzaSyCU3BgKKqzBXsgYxEHdHM7Iya71a-_J1LU"
+    },
+    "oAuth": {
+      "facebook": {
+        "appId": "1963888350536150",
+        "secret": "54399369d40f88ee6b42f9e3be55eb0b"
+      }
+    }
+  }
+}
