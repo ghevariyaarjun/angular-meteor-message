@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.2.11",
+    "meteor-rxjs": "^0.4.7",
+    "moment": "^2.18.1"
+  }
+}
