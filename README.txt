@@ -21,6 +21,22 @@ BACK - END ( api folder )
 npm install
 
 ----------------------------
+CHANGE SOCKET URL
+----------------------------
+Open meteor-client.config.json file 
+Change socket url in DDP_DEFAULT_CONNECTION_URL variable
+          Ex . 
+          {
+            "runtime": {
+              "DDP_DEFAULT_CONNECTION_URL": "http://ec2-34-213-113-105.us-west-2.compute.amazonaws.com:3000"
+            },
+            "import": [
+
+            ]
+          }
+
+
+----------------------------
 CREATE SOCKET URl
 ----------------------------
 npm run meteor-client:bundle
